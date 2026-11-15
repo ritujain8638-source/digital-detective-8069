@@ -1,0 +1,27 @@
+# Mission 3 — Privacy-Safe Operating System & Permissions Snapshot
+
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		27.2.1
+BuildVersion:		26B131
+
+$ uname -srpm
+Darwin 26.2.0 arm64 arm
+
+$ whoami
+[redacted]
+
+$ df -h /
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    13Gi   213Gi     6%    487k  2.2G    0%   /
+
+$ ps -Ao pid,comm | head -n 6
+  PID COMM
+    1 /sbin/launchd
+  312 /System/Library/CoreServices/WindowServer
+  418 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+  524 /Applications/Visual Studio Code.app/Contents/MacOS/Electron
+  610 /bin/zsh
+
+$ ls -l mission-02-terminal/terminal-practice/notes.txt
+-rw-r--r--  1 [redacted]  staff  108 Nov 15 17:47 mission-02-terminal/terminal-practice/notes.txt
