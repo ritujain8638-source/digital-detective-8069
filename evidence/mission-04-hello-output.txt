@@ -1,0 +1,2 @@
+$ python3 mission-04-programs/hello.py
+Hello from Python
