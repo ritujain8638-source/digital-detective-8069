@@ -22,3 +22,10 @@ Each mission in this repository is completed, documented in its own folder, and 
 | **Mission 7** | Computer networks | [mission-07-networking/README.md](./mission-07-networking/README.md) |
 | **Mission 8** | Final review and submission | [mission-08-final-report/README.md](./mission-08-final-report/README.md) |
 | **Evidence** | Privacy-safe command outputs | [evidence/](./evidence/) |
+
+## My Learning
+
+Through the missions completed so far, I have learned several foundational computing skills:
+1. **Command-Line & OS Confidence:** I can navigate folders, inspect permissions (`rwx`), check storage and running processes (`PID`), and safely manipulate files in Terminal using flags (`-lah`) and pipes (`|`).
+2. **How Programs & Data Work Internally:** I understand the difference between compilers and interpreters, how decimal numbers translate into binary (`0b`) and hexadecimal (`0x`), and how text is stored using ASCII and UTF-8.
+3. **Structured Version Control with Git:** Staging and committing each mission separately—and isolating changes on branches like `update-about`—keeps a clean, reversible history of my work.
