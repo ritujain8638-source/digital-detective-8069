@@ -1,0 +1,21 @@
+# Mission 6 — Git Workflow, Branching, and Commit History Output
+
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+$ git branch -a
+* main
+  update-about
+
+$ git log --oneline --graph --decorate
+*   e4c2a1b (HEAD -> main) Merge branch 'update-about' into main
+|\  
+| * 5b34aba (update-about) Add My Learning section to root README
+|/  
+* 3199c03 Build number converter and practise data representation
+* 1ce1ae8 Compare compilers and interpreters
+* 94adfd6 Document operating system and file management
+* f67fa36 Complete Terminal and file management mission
+* 5607d58 Complete computer basics and IPOS mission
+* 74772ca Set up Digital Detective mission structure
