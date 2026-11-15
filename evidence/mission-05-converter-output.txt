@@ -1,0 +1,39 @@
+# Mission 5 — Python Verification and Number Converter Test Output
+
+## Task 5.2 — Interactive Python Verification
+>>> bin(13)
+'0b1101'
+>>> bin(25)
+'0b11001'
+>>> int('1010', 2)
+10
+>>> int('1101', 2)
+13
+>>> int('A', 16)
+10
+>>> int('1F', 16)
+31
+>>> hex(int('1111', 2))
+'0xf'
+>>> ord('A'), ord('a')
+(65, 97)
+
+## Task 5.3 — Running number_converter.py with 3 Test Numbers
+
+$ python3 mission-05-numbers-data/number_converter.py
+Enter a positive decimal integer: 13
+Decimal input      : 13
+Binary output      : 0b1101 (bits: 1101)
+Hexadecimal output : 0xd (hex digits: D)
+
+$ python3 mission-05-numbers-data/number_converter.py
+Enter a positive decimal integer: 25
+Decimal input      : 25
+Binary output      : 0b11001 (bits: 11001)
+Hexadecimal output : 0x19 (hex digits: 19)
+
+$ python3 mission-05-numbers-data/number_converter.py
+Enter a positive decimal integer: 255
+Decimal input      : 255
+Binary output      : 0b11111111 (bits: 11111111)
+Hexadecimal output : 0xff (hex digits: FF)
