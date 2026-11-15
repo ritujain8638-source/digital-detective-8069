@@ -1,0 +1,35 @@
+# Mission 2 — Privacy-Safe Terminal Practice Output
+
+$ pwd
+/Users/[redacted]/digital-detective-8069/mission-02-terminal
+
+$ ls
+README.md          terminal-practice
+
+$ ls -lah
+total 8
+drwxr-xr-x   4 [redacted]  staff   128B Nov 15 17:47 .
+drwxr-xr-x  13 [redacted]  staff   416B Nov 15 17:45 ..
+-rw-r--r--   1 [redacted]  staff   5.2K Nov 15 17:47 README.md
+drwxr-xr-x   6 [redacted]  staff   192B Nov 15 17:47 terminal-practice
+
+$ ls -lah | head -n 5
+total 8
+drwxr-xr-x   4 [redacted]  staff   128B Nov 15 17:47 .
+drwxr-xr-x  13 [redacted]  staff   416B Nov 15 17:45 ..
+-rw-r--r--   1 [redacted]  staff   5.2K Nov 15 17:47 README.md
+drwxr-xr-x   6 [redacted]  staff   192B Nov 15 17:47 terminal-practice
+
+$ cat terminal-practice/notes.txt
+Line 1: Learning safe Terminal file operations.
+Line 2: Appending a second line without overwriting the first.
+
+$ brew --version
+Homebrew 7.0.12
+
+$ brew list --formula | head -n 5
+ada-url
+brotli
+btop
+c-ares
+ca-certificates

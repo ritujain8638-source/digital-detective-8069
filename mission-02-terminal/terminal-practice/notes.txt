@@ -1,0 +1,2 @@
+Line 1: Learning safe Terminal file operations.
+Line 2: Appending a second line without overwriting the first.
