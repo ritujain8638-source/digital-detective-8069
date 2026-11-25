@@ -65,3 +65,5 @@ Through this assignment, I built a connected picture of how a computer works fro
 1. **Command-Line & OS Confidence:** I can navigate folders, inspect permissions (`rwx`), check storage and running processes (`PID`), and safely manipulate files in Terminal using flags (`-lah`) and pipes (`|`).
 2. **How Programs & Data Work Internally:** I understand how high-level Python code is executed by an interpreter, how decimal numbers translate into binary (`0b`) and hexadecimal (`0x`), and how text characters are stored as numeric codes using ASCII and UTF-8.
 3. **Structured Version Control & Networking:** Staging and committing each mission separately—and isolating updates on branches like `update-about`—keeps a clean, reversible history of my work, while DNS, routers, and protocols allow my local machine to communicate reliably with remote servers like GitHub.
+
+4. **Privacy-Safe Technical Documentation:** Redacting sensitive system details while preserving clear command evidence makes a public repository both safe and reproducible.
